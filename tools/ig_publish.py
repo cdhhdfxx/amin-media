@@ -22,7 +22,7 @@ def to_jpeg(src, dst):
     subprocess.run(["ffmpeg", "-v", "error", "-y", "-i", src, "-q:v", "2", dst], check=True)
 
 def host(images):
-    stamp = datetime.datetime.utcnow().strftime("%Y%m%d-%H%M%S")
+    stamp = datetime.datetime.now(datetime.timezone.utc).strftime("%Y%m%d-%H%M%S")
     folder = os.path.join(REPO_DIR, "posts", stamp); os.makedirs(folder, exist_ok=True)
     names = []
     for i, src in enumerate(images, 1):
