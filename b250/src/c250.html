@@ -57,7 +57,7 @@ red:{bg:'#170C0C',fg:'#F7ECEC',sub:'#d6b6b6',mut:'rgba(247,236,236,.45)',acc:'#E
 
 const P=B250.find(p=>p.n==+location.hash.slice(1));const TK=Object.keys(TH);const T=TH[P.th||TK[(P.n-1)%TK.length]];
 const svg=k=>`<svg viewBox="0 0 24 24">${I[k]||I.check}</svg>`;
-const S=[];const cov=['type','badge','type','badge','photo'][(P.n-1)%5];
+const S=[];const cov=['type','badge','type','badge','badge'][(P.n-1)%5];
 const tb=(c)=>`<span class="chip">${P.kick}</span>
  <div style="font-weight:900;font-size:${P.t.join('').length>16?96:116}px;line-height:1.2;margin-top:36px">${P.t.join('<br>')}</div>
  <div style="font-weight:900;font-size:${P.hl.length>12?92:116}px;line-height:1.35;margin-top:6px"><span class="hl">${P.hl}</span></div>
