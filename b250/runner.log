@@ -63,3 +63,5 @@
 [11-23 16:30:29] PUBLISHED 63 https://www.instagram.com/p/DgFfc2nnYP3/
 [11-23 16:45:35] PUBLISHED 64 https://www.instagram.com/p/DgFhK-cl-OY/
 [11-23 17:00:36] PUBLISHED 65 https://www.instagram.com/p/DgFi5SklHXq/
+[11-23 17:15:15] ERROR post 66: Graph API error 400: {"error":{"message":"Timeout","code":-2,"type":"OAuthException","error_subcode":2207003,"is_transient":false,"error_user_msg":"يستغرق تنزيل الوسائط وقتًا طويلاً للغاية.","error_user_title":"انتهت المهلة","fbtrace_id":"AsiLNN9eb1hKY6JwBsANygn"}}
+[11-23 17:17:57] PUBLISHED 66 https://www.instagram.com/p/DgFk4islKXX/
