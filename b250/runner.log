@@ -189,3 +189,5 @@
 [11-24 23:45:44] PUBLISHED 188 https://www.instagram.com/p/DgI2D2EoX6F/
 [11-25 00:00:26] ERROR post 189: Graph API error 400: {"error":{"message":"Media ID is not available","code":9007,"type":"OAuthException","error_subcode":2207027,"is_transient":false,"error_user_msg":"الوسائط غير جاهزة للنشر، يرجى الانتظار للحظة","error_user_title":"لا يمكن النشر","fbtrace_id":"AE45NKod22kQMqc-Pm97-rM"}}
 [11-25 00:03:12] PUBLISHED 189 https://www.instagram.com/p/DgI4DKJDGIZ/
+[11-25 00:15:15] ERROR post 190: Graph API error 400: {"error":{"message":"User is performing too many actions","code":9,"type":"OAuthException","error_subcode":2207069,"is_transient":false,"error_user_msg":"لقد وصلت إلى الحد الأقصى لعدد المنشورات المسموح بإنشائها بواسطة واجهة API نشر المحتوى. للحصول على سياق إضافي، يرجى مراجعة وثائق المطوّرين \"واجهة Instagram Graph API - نشر المحتوى\".","error_user_title":"تم تجاوز حد إنشاء الوسائط","fbtrace_id":"AIb83kN5taI57QNoYw1zwmj"}}
+[11-25 00:17:57] PUBLISHED 190 https://www.instagram.com/p/DgI5vZbl8rD/
