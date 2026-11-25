@@ -235,3 +235,4 @@
 [11-25 10:00:48] PUBLISHED 229 https://www.instagram.com/p/DgJ8cITD-Yh/
 [11-25 10:15:12] ERROR post 230: Graph API error 400: {"error":{"message":"User is performing too many actions","code":9,"type":"OAuthException","error_subcode":2207069,"is_transient":false,"error_user_msg":"لقد وصلت إلى الحد الأقصى لعدد المنشورات المسموح بإنشائها بواسطة واجهة API نشر المحتوى. للحصول على سياق إضافي، يرجى مراجعة وثائق المطوّرين \"واجهة Instagram Graph API - نشر المحتوى\".","error_user_title":"تم تجاوز حد إنشاء الوسائط","fbtrace_id":"AOOUj1pkYEo8nrFLBqNNYun"}}
 [11-25 10:17:53] PUBLISHED 230 https://www.instagram.com/p/DgJ-Zw5DWVJ/
+[11-25 10:30:37] PUBLISHED 231 https://www.instagram.com/p/DgJ_23JjBtq/
